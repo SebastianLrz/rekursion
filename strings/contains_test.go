@@ -4,7 +4,7 @@ import "fmt"
 
 func ExampleContains() {
 	fmt.Println(Contains("abaaba", "a"))
-	fmt.Println(Contains("abaaba", "ab"))
+	fmt.Println(Contains("abaaba", "c"))
 	fmt.Println(Contains("abaaba", "aa"))
 	fmt.Println(Contains("abaaba", ""))
 	fmt.Println(Contains("abaaba", "baab"))
